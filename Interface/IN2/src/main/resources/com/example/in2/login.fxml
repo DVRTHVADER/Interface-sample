@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="Login" prefHeight="324.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.in2.logIn">
+   <children>
+      <ImageView fitHeight="347.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@PHOTO-2024-04-02-23-12-12.jpg" />
+         </image>
+      </ImageView>
+      <TextField layoutX="226.0" layoutY="103.0" promptText="User ID">
+         <font>
+            <Font name="Comic Sans MS" size="13.0" />
+         </font></TextField>
+      <PasswordField id="fiels" layoutX="226.0" layoutY="156.0" promptText="Password" style="\\: pik;" stylesheets="@background.css">
+         <font>
+            <Font name="Comic Sans MS" size="13.0" />
+         </font></PasswordField>
+      <Button layoutX="395.0" layoutY="239.0" mnemonicParsing="false" onAction="#OnNextC" text="Next" />
+      <Button id="buttons" layoutX="164.0" layoutY="239.0" mnemonicParsing="false" onAction="#OnBackc" stylesheets="@background.css" text="Back" />
+      <CheckBox layoutX="226.0" layoutY="190.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="144.0" text="Remember Me">
+         <font>
+            <Font name="Noteworthy Bold" size="13.0" />
+         </font>
+      </CheckBox>
+   </children>
+</AnchorPane>

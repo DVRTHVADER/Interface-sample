@@ -1,0 +1,33 @@
+/* Style.css */
+.root {
+    -fx-background-image: linear-gradient(to bottom, #FF4081, #9C27B0);
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+}
+.pink-rounded-button {
+    -fx-background-color: pink;
+    -fx-background-radius: 30;
+    -fx-min-width: 100px;
+    -fx-min-height: 40px;
+    -fx-max-width: 100px;
+    -fx-max-height: 40px;
+}
+.menu-bar {
+    -fx-background-color: pink; /* Background color */
+}
+
+/* Style the menu */
+.menu {
+    -fx-background-color: transparent;
+}
+
+/* Style the menu items */
+.menu-item {
+    -fx-text-fill: pink; /* Text color */
+
+}
+
+/* Style the hovered menu items */
+.menu-item:hover {
+    -fx-background-color:pink; /* Hover background color */
+}
